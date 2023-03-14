@@ -1,5 +1,5 @@
-const baseUrl = process.env.NODE_ENV === "development" ? "http://localhost:4321/" : "https://final-project-teacher-app.herokuapp.com/";
+const baseUrl = process.env.NODE_ENV === "development" ? "http://localhost:4321/" : "https://trackmate-server.onrender.com/";
 
-const clientId = '7633690609-nm7dhj6md96naeal4uga22iof0dv4rlr.apps.googleusercontent.com';
+const clientId = '943470196639-urobs3t3p6n6lfip7m6gufkl933f27pl.apps.googleusercontent.com';
 
 export { baseUrl, clientId };
