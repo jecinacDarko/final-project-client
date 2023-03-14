@@ -1,7 +1,5 @@
 import { baseUrl } from "../config";
 
-console.log(baseUrl);
-
 export default (function () {
   return {
     loginTeacher: async (access_token) => {
